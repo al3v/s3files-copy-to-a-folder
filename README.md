@@ -22,13 +22,13 @@ Before using this script, you should have the following prerequisites in place:
 3. Make the script executable if it's not already:
 
    ```bash
-   chmod +x copy_files.sh
+   chmod +x s3-copy-to-folder.sh
     ```
 
 4. Run the script:
 
    ```bash
-   ./copy_files.sh
+   ./s3-copy-to-folder.sh
     ```
 
 Suppose you want to copy files from January 2024 to a folder named "january-2024" within your S3 bucket. Modify the script as follows:
