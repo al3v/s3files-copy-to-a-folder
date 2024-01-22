@@ -38,3 +38,19 @@ bucket="your-s3-bucket-name"
 new_folder="january-2024/"
 month="2024-01"
 ```
+
+
+
+🔶 PS: 
+
+🔸To list the files filtered by a specific date:
+   ```bash
+   aws s3api list-objects --bucket gantekcostreportbuckett --query 'Contents[?contains(LastModified, `2023-10`)]'
+ ```
+
+🔸To list files inside a bucket:
+   ```bash
+   aws s3 ls s3://your-bucket-name/
+ ```
+
+
